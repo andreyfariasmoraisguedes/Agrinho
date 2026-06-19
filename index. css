@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#eef6ff;
+    text-align:center;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:20px;
+}
+
+.painel{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    width:180px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.house{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    padding:20px;
+}
+
+.appliance{
+    padding:15px;
+    border-radius:10px;
+    background:#ef5350;
+    color:white;
+    font-weight:bold;
+}
+
+.appliance.off{
+    background:#66bb6a;
+}
+
+button{
+    display:block;
+    margin:10px auto 0;
+    padding:8px 12px;
+    cursor:pointer;
+}
+
+#message{
+    font-size:24px;
+    font-weight:bold;
+    margin:20px;
+}
