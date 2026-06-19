@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Missão Energia Inteligente</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>⚡ Missão Energia Inteligente ⚡</h1>
+    <h2>Fase <span id="level">1</span></h2>
+</header>
+
+<section class="painel">
+
+    <div class="card">
+        <h3>Objetivo</h3>
+        <p>Reduzir para menos de:</p>
+        <h2><span id="target">15</span> kWh</h2>
+    </div>
+
+    <div class="card">
+        <h3>Consumo Atual</h3>
+        <h2><span id="energy">0</span> kWh</h2>
+    </div>
+
+    <div class="card">
+        <h3>Tempo</h3>
+        <h2><span id="timer">60</span>s</h2>
+    </div>
+
+</section>
+
+<div id="message"></div>
+
+<section class="house">
+
+    <div class="appliance on" data-consumption="2">💡 Luz Sala<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="2">💡 Luz Quarto<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="1">💡 Luz Cozinha<button>Desligar</button></div>
+
+    <div class="appliance on" data-consumption="5">📺 TV<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="4">💻 Computador<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="6">❄️ Ar-condicionado<button>Desligar</button></div>
+
+    <div class="appliance on" data-consumption="3">🧺 Máquina de Lavar<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="2">🔊 Caixa de Som<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="4">🎮 Videogame<button>Desligar</button></div>
+
+    <div class="appliance on" data-consumption="5">🍳 Forno Elétrico<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="2">☕ Cafeteira<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="1">📡 Roteador<button>Desligar</button></div>
+
+    <div class="appliance on" data-consumption="3">🧊 Geladeira<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="4">🚿 Chuveiro Elétrico<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="2">🌀 Ventilador<button>Desligar</button></div>
+
+    <div class="appliance on" data-consumption="2">🍲 Micro-ondas<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="3">🧹 Aspirador<button>Desligar</button></div>
+    <div class="appliance on" data-consumption="1">📱 Carregador<button>Desligar</button></div>
+
+    <div class="appliance on" data-consumption="2">🖨️ Impressora<button>Desligar</button></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
